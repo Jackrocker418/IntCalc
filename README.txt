@@ -22,12 +22,18 @@ core code V1: 4hrs
 
 problems:
 	Used wrong overload of string.erase() - didnt include length so it deleted the rest of 
-   the string
+   	the string
  
 testing - v1 - v2 8hrs: no negative, int only, no decimels
 	-lessons learned: negative numbers will most likely be handled by flags and seperate 
-   functions. do not include value inverters (A*= -1;) within the original setA function;
+   	 functions. do not include value inverters (A*= -1;) within the original setA 
+	 function.
 
-v1.1 - v1.2 5hrs: no negative, fully usable, correct order of operations
+v1.1 - v1.2 5hrs: no negative, test scripts fully usable, incorrect order of operations
 	-lessons learned: */ and +- need to be searched left to right in order of apperance. 
-   This lead to moving the parse loop to a wrapper that also recursively checks the equation.
+   	 This lead to moving the parse loop to a wrapper that also recursively checks the 
+	 equation.
+	
+v1.2 - 3hrs: no negative, tested stable, correct order of operations
+	-lessons lerned: moving the loop control from solve() removed the need for flagging of
+	 searches. lookFor* step through evolving currentEquation by self itarating.
