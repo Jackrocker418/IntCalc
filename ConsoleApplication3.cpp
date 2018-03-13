@@ -9,9 +9,5 @@ int main() {
 	user.Begin();
 	//user.testScript();
 	//user.smallTest();
-
-	//std::cout << "3/2 = " << (3 / 2) << std::endl;
-	//getchar();
-	//getchar();
-
+	
 }
