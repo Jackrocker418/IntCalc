@@ -8,12 +8,8 @@ All fractions and division must have denominators and numerators grouped by pare
 No BIGInts
 No decimals
 
-V1 is stable
-V1p1 is stable but is messing up on order of operations
-V2 not working - trying to implement negative number handling
 __________________________________________________________________________________________
-V1.1 - apply PEMDAS correctly (*/ or /* and +- or -+)
-V2 - handle negative numbers without destroying
+V1.2 - stable
 
 __________________________________________________________________________________________
 Calc: comments/hours/lessons learned:
@@ -29,7 +25,7 @@ testing - v1 - v2 8hrs: no negative, int only, no decimels
    	 functions. do not include value inverters (A*= -1;) within the original setA 
 	 function.
 
-v1.1 - v1.2 5hrs: no negative, test scripts fully usable, incorrect order of operations
+v1.1 - v1.2 5hrs: no negative, test scripts usable, incorrect order of operations
 	-lessons learned: */ and +- need to be searched left to right in order of apperance. 
    	 This lead to moving the parse loop to a wrapper that also recursively checks the 
 	 equation.
