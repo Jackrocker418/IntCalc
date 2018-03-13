@@ -1,0 +1,10 @@
+﻿  ConsoleApplication3.cpp
+c:\users\jack's pc\documents\visual studio 2017\projects\consoleapplication3\consoleapplication3\headerv1p2.h(45): warning C4018: '<=': signed/unsigned mismatch
+c:\users\jack's pc\documents\visual studio 2017\projects\consoleapplication3\consoleapplication3\headerv1p2.h(100): warning C4018: '<=': signed/unsigned mismatch
+c:\users\jack's pc\documents\visual studio 2017\projects\consoleapplication3\consoleapplication3\headerv1p2.h(133): warning C4018: '<': signed/unsigned mismatch
+c:\users\jack's pc\documents\visual studio 2017\projects\consoleapplication3\consoleapplication3\headerv1p2.h(157): warning C4018: '<': signed/unsigned mismatch
+c:\users\jack's pc\documents\visual studio 2017\projects\consoleapplication3\consoleapplication3\headerv1p2.h(210): warning C4018: '<': signed/unsigned mismatch
+c:\users\jack's pc\documents\visual studio 2017\projects\consoleapplication3\consoleapplication3\headerv1p2.h(275): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\jack's pc\documents\visual studio 2017\projects\consoleapplication3\consoleapplication3\headerv1p2.h(394): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+  ConsoleApplication3.vcxproj -> C:\Users\Jack's PC\documents\visual studio 2017\Projects\ConsoleApplication3\Debug\ConsoleApplication3.exe
+  ConsoleApplication3.vcxproj -> C:\Users\Jack's PC\documents\visual studio 2017\Projects\ConsoleApplication3\Debug\ConsoleApplication3.pdb (Partial PDB)
