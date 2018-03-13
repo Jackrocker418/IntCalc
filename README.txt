@@ -25,7 +25,7 @@ testing - v1 - v2 8hrs: no negative, int only, no decimels
    	 functions. do not include value inverters (A*= -1;) within the original setA 
 	 function.
 
-v1.1 - v1.2 5hrs: no negative, test scripts usable, incorrect order of operations
+v1.1 - v1.2 5hrs: no negative, incorrect order of operations
 	-lessons learned: */ and +- need to be searched left to right in order of apperance. 
    	 This lead to moving the parse loop to a wrapper that also recursively checks the 
 	 equation.
